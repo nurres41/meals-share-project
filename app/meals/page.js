@@ -6,6 +6,7 @@ import { Suspense } from "react";
 
 const Meals = async () => {
   const meals = await getMeals();
+  
   return <MealsGrid meals={meals} />;
 };
 
